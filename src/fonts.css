@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'JostRegular';
+  src: url('./fonts/Jost-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JostSemibold';
+  src: url('./fonts/Jost-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SportingOutline';
+  src: url('./fonts/SportingOutline.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

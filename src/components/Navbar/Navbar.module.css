@@ -1,0 +1,52 @@
+.nav {
+  grid-area: n;
+  color: white;
+  margin-top: 50%;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__list:first-child {
+  border-top: 1px solid white;
+}
+
+.nav__list-item {
+  display:flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  text-align: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid white;
+}
+
+.nav__list-item a {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+
+.nav__list-item a.activeLink{
+  color:rgb(0, 0, 0);
+}
+
+.nav__list-item:has(a.activeLink) {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav__list-item:hover {
+  background-color: rgb(114, 95, 95);
+}
+
+.icons{
+  height: 2rem;
+  width: 2rem;
+  padding-right: 0.3rem;
+  justify-self: center;
+}

@@ -1,0 +1,23 @@
+.postAvatar{
+  height: 70px;
+  width: 70px;
+  border-radius: 1rem;
+  padding: 0.5rem 0;
+}
+
+.postText{
+  color: white;
+}
+
+.item{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 30, 30);
+  margin-bottom: 1.2rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  width: 70%;
+}

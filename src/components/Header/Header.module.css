@@ -1,0 +1,16 @@
+.header{
+  background-color:rgb(43, 43, 44);
+  border-bottom: 3px solid rgb(30, 30, 31);
+  width: 100%;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.logo{
+  padding-top: 0.4rem;
+  font-size: 4rem;
+  color: #e63a06;
+  font-family: 'SportingOutline', sans-serif;
+}
